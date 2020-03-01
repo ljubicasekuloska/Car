@@ -1,8 +1,7 @@
 # Car
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/car`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This is a project that creates a class called MyCar. When you initialize a new instance or object of the class, it allows the user to define some instance variables that tell the year, color, model of the car and it's current speed as well. The class methods allow the car to speed up, brake, and shut the car off.
+The method called spray_paint can be called on an object and will modify the color of the car.
 
 ## Installation
 
@@ -32,5 +31,5 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/car.
+Bug reports and pull requests are welcome on GitHub at https://github.com/ljubicasekuloska/Car.
 
