@@ -1,4 +1,4 @@
-require 'car/version'
+#require 'car/version'
 
 module Car
   class MyCar
@@ -11,7 +11,15 @@ module Car
       @model = model
       @current_speed = 0
     end
+
+    # speed_up verzija 1
+    def speed_up
+      self.current_speed += 10
+    end
+    # speed_up verzija 2
+    # def speed_up(speed)
+    #   self.current_speed += speed
+    # end
+
   end
 end
-
-#za doma napraj metodi za speed up, slowdown i stop i napraj testovi
